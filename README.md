@@ -1,4 +1,4 @@
-# cashmeoutsidewithsickbeats
+# Cash Me Outside With Sick Beats
 By Melodee Li and Julia Martin
 
 Play music depending on the weather!
