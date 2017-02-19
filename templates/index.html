@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<!--
+	Typify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>SICK BEATS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='icon.ico') }}">
+	</head>
+	<body>
+
+		<!-- Banner -->
+
+			<section id="banner">
+<br><br><br><br><br><br>
+			<!--<img src="{{ url_for('static', filename = 'icon.jpg') }}" alt="icon" style="width:20%;height:20%;padding-bottom:1em">-->
+
+				<h2>CASH ME OUTSIDE WITH SICK BEATS</h2>
+				<p>Brought to you by Melodee Li and Julia Martin</p>
+				<ul class="actions">
+					<li><a href="#two" class="button special">Get the weather!</a></li>
+				</ul>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2 special">
+				<div class="inner narrow">
+					<header>
+						<h2>Enter your zip code!</h2>
+					</header>
+					<form action="/weather" class="grid-form" method="post">
+						<div class="form-control">
+							<input type="text" name="text" rows="4"></input>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" name="my-form" value="Send"></li>
+						</ul>
+					</form>
+				</div>
+			</section>
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">Cash me outside with sick beats</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
